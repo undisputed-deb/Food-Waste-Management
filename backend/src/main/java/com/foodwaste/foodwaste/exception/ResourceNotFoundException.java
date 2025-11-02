@@ -1,0 +1,7 @@
+package com.foodwaste.foodwaste.exception;
+
+public class ResourceNotFoundException extends RuntimeException {
+    public ResourceNotFoundException(String message) {
+        super(message);
+    }
+}
